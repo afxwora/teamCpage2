@@ -1,0 +1,500 @@
+#navbar{
+    background-color: rgba(120, 40, 253, 1);
+}
+#footer{
+    background-color: rgba(61, 61, 61, 1);
+    width: auto;
+    padding-bottom: 10px;
+}
+#line-center{
+    border: 2px solid white;
+    margin-top: 30px;
+}
+#text{
+    margin-top: -20px;
+    padding-bottom: 2px;
+    background-color: rgba(61, 61, 61, 1);
+    width: 200px;
+    border: 3px solid white;
+    text-align: center;
+}
+#text-center{
+    display: flex;
+    justify-content: center;
+}
+#footer-link{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+#ict-green-office{
+    background-color: rgba(52, 168, 83, 1);
+    width: 170px;
+    text-decoration: none;
+}
+#block1{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block2{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block3{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block4{
+    background-color: rgba(61, 61, 61, 1);
+}
+#circle{
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+#circle_off-side{
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+}
+#link-to-top{
+    margin-top: -40px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+/*2.1*/
+
+.block-left{
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.block-right{
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#line-partition{
+    border: 3px solid rgb(0, 0, 0);
+}
+#choice-left1{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(99, 52, 227, 1);
+    color: #ffffff;
+}
+#choice-left2{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(99, 52, 227, 1);
+    color: #ffffff;
+}
+#choice-left3{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(99, 52, 227, 1);
+    color: #ffffff;
+}
+#block-right{
+    height: 500px;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.p-50px {
+    padding: 60px;
+}
+
+/*2.1*/
+
+
+/*2.2*/
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 0  10%;
+    
+    
+   }
+
+  .flex-container {
+    display: flex;
+    
+    justify-items: center;
+
+  }
+
+  .p-auto {
+    padding: auto;
+  }
+  .Bg-imageleft{
+    background-color: #666666;
+    background-image: url('picture/busup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    }
+
+  .Bg-imageright{
+    background-color: #666666;
+    background-image: url('picture/Ictup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+  }
+
+  .left-column {
+   display: flexbox;
+   gap: 100px;
+   width: 100%;
+  }
+  .right-column{
+    display: flexbox;
+    gap: 100px;
+    width: 100%;
+   }
+  
+  
+  .dropdown {
+      margin: 20px;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+  /*อันหลัก*/
+  .Dropdown {        
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 5px solid rgba(120, 40, 253, 1); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 12px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+   }
+
+  
+  
+  .dropdown-content {
+    display: none;
+    z-index: 1;
+  
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  #dropdown-text1 {
+    background-color: rgb(253, 252, 230);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(0, 0, 0); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 10px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+    
+  
+  }
+  #dropdown-text2{
+    background-color: rgb(253, 252, 230);
+    color: rgb(2, 2, 2); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(0, 0, 0); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 10px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+  
+  }
+  #dropdown-text3{
+    background-color: rgb(253, 252, 230);
+    color: rgb(11, 10, 10); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(0, 0, 0); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 10px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+  
+  }
+  #dropdown-text4{
+    background-color: rgb(253, 252, 230);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(0, 0, 0); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 10px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+  
+  }
+  #dropdown-text5{
+    background-color: rgb(253, 252, 230);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(0, 0, 0); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 10px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+  
+  }
+
+  /*css old*/
+  .Dropdown-1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 0px solid rgb(255, 64, 30); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 25px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+}
+
+
+   .Dropdown-2 {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 3px solid rgb(254, 198, 66); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 25px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+   }
+   .Dropdown-3 {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 3px solid rgb(47, 196, 6); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 25px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+   }
+   .Dropdown-4 {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 3px solid rgb(86, 0, 192); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 25px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+   }
+   
+   .Dropdown-5 {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0); /* สีของข้อความ */
+    padding: 10px 20px; /* ขนาดขอบของปุ่ม */
+    border: 3px solid rgb(12, 4, 14); /* ลบเส้นขอบ-สีของขอบ */
+    border-radius: 25px; /* มุมขอบโค้ง */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-right: 10px;
+    width: auto;
+    
+   }
+   /*css old*/
+
+
+/* CSS new*/
+.buttonright-62  {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonright-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.buttonright-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.buttonright-63  {
+  background: linear-gradient(to bottom right, #617107, #ffcc13);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonright-63:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(248, 252, 14, 0.5), .125rem .125rem 1rem rgba(225, 186, 14, 0.5);
+}
+
+.buttonright-63:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(248, 252, 14, 0.5), .125rem .125rem 1rem rgba(225, 186, 14, 0.5);
+}
+
+.buttonright-64  {
+  background: linear-gradient(to bottom right, #023617, #23f510);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonright-64:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(42, 236, 35, 0.5), .125rem .125rem 1rem rgba(27, 166, 73, 0.5);
+}
+
+.buttonright-64:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(42, 236, 35, 0.5), .125rem .125rem 1rem rgba(27, 166, 73, 0.5);
+}
+
+.buttonright-65  {
+  background: linear-gradient(to bottom right, #000000, #540ca7);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonright-65:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(26, 18, 231, 0.5), .125rem .125rem 1rem rgba(97, 97, 221, 0.5);
+}
+
+.buttonright-65:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(26, 18, 231, 0.5), .125rem .125rem 1rem rgba(97, 97, 221, 0.5);
+}
+
+.buttonright-66  {
+  background: linear-gradient(to bottom right, #373637, #1a1918);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.buttonright-66:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 240, 243, 0.5), .125rem .125rem 1rem rgba(18, 17, 16, 0.5);
+}
+
+.buttonright-66:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 240, 243, 0.5), .125rem .125rem 1rem rgba(18, 17, 16, 0.5);
+}
+
+/*2.2*/
+  
+  
+  
+  
+  
+  
+
+
+
